@@ -21,3 +21,7 @@ npm run dev
 /compiled-assets/    enthält die kompiulierten Assets, z.B. Styles. Hier keine Änderungen vornehmen.
 ```
 
+```
+Mein Name: Muhammed Ali Garanli
+Matrikelnummer: 11139327
+```
