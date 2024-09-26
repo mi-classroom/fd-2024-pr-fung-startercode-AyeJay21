@@ -32,14 +32,20 @@
       text-decoration: none;
       
       &:hover {
-        background-color: var(--interaction-color);
+        background-color: var(--color-pink);
         color: var(--color-lightest);
+        
 
         i {
           color: var(--color-lightest);
         }
+
+        .text-in-pic{
+          color: var(--color-lightest);
+        }
       }
     }
+
 
     /* stylelint-disable-next-line no-descending-specificity */
     i {
