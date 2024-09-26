@@ -6,11 +6,11 @@
 .work-overview {
     display: flex;
     flex-wrap: wrap; 
-    gap: 20px;
-    list-style: none; 
+    align-items: stretch; 
     padding: 0; 
     margin: 0; 
-    align-items: stretch; 
+    gap: 20px;
+    list-style: none; 
 }
 
 .work-overview li { 
@@ -45,7 +45,7 @@
     margin-bottom: 0.5em; 
 }
 
-@media (max-width: 50vw) {
+@media (width <= 50vw) {
     .work-overview li {
         flex: 1 1 100%;
     }
